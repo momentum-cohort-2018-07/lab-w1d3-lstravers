@@ -1,0 +1,123 @@
+/*
+body {
+ align-content: center;
+}
+*/
+
+.site-header {
+background-color: #154360;
+}
+
+.site-logo {
+  color: #FFFFFF;
+}
+
+.main-menu a {
+color: #FFFFFF;
+}
+
+.main-menu__list {
+list-style: none;
+}
+
+.search {
+background-color: rgb(240, 240, 240);
+}
+
+.search__choice {
+  display: inline-block;
+  vertical-align: text-top;
+}
+
+label {
+display: block;
+  margin-top: 1px;
+  margin-right: 25px;
+}
+
+.row {
+  margin: 10px 4px;
+}
+
+.animal {
+  float: left;
+  width: 20%;
+  margin: 30px 10px;
+}
+
+img {
+width: 100%;
+}
+
+.animal__name {
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.animal__trait {
+background-color: #7CE0F2;
+  border-radius: 100px;
+}
+
+.footer {
+  clear: both;
+  text-align: center;
+  max-width: 70%;
+  font-size: 40px;
+  color: #FFFFFF;
+}
+
+.footer a:hover{
+  color: #E43F00;
+  line-height: 300px;
+  text-decoration-line: none;
+}
+
+.footer__block {
+  display: inline-block;
+}
+
+.footer__block--donate {
+  background: url("https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fdonate.jpg?1524172864137");
+  background-origin: border-box;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 300px;
+  opacity: 0.5;
+}
+
+.footer__block--volunteer {
+  background: url("https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Fvolunteer.jpg?1524172863718");
+  background-origin: border-box;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 300px;
+  opacity: 0.5;
+}
+
+.footer__block--location {
+  background: url("https://cdn.glitch.com/c0fa9c87-4df4-4edd-a0e7-d5bbdc56e570%2Flocation.png?1524172864805");
+  background-origin: border-box;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 300px;
+  display: inline-block;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 300px;
+  opacity: 0.5;
+}

@@ -1,0 +1,67 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: #FCF7F8;
+  color: #0A090C;
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 16px;
+}
+
+#title {
+text-align: center;
+}
+
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.store-image {
+  width: 500px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+/*   border-width: 1px;
+  border-color: #0A090C;
+  border-style: solid;
+  padding: 10px; */
+  
+}
+
+.plant-image {
+  height: 20%;
+  width: 20%;
+  float: left;
+  padding-right: 1%;
+  border-radius: 15%;
+}
+
+#in-stock {
+  text-transform: uppercase;
+  padding-bottom: 1%;
+}
+
+.content {
+  padding-bottom: 10%;
+  line-height: 2;
+}
+
+#motto {
+  text-align: center;
+  font-weight: bold;
+}
+
+.nav-menu {
+ text-align: center;
+}
+
+.nav-menu a {
+font-weight: bold;
+}
+
+.nav-menu a:hover {
+  color: #0000FF;
+}
